@@ -3,12 +3,12 @@ const fsbx = require('fuse-box');
 const postCssPlugins = [];
 
 const fuseBox = fsbx.FuseBox.init({
-  homeDir: ".",
+  homeDir: "./src",
   sourceMap: {
     bundleReference: 'pages.js.map',
     outFile: `dist/pages.js.map`
   },
-  cache: false,
+  // cache: false,
   outFile: `dist/pages.js`,
   tsConfig: './tsConfig.json',
   plugins: [
