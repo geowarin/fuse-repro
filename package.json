@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node watch.js"
+  },
+  "devDependencies": {
+    "fuse-box": "^1.3.121-alpha.1",
+    "postcss": "^5.2.15"
+  },
+  "dependencies": {
+    "typescript": "^2.2.1"
+  }
+}
